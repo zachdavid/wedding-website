@@ -2,8 +2,11 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (min-width: 1200px) {
-
+@media (min-width: 1080px) {
+  .airplane {
+    padding-left: 15%;
+    align-self: center;
+  }
 }
 
 /** Width between 992px to 1199px
@@ -154,6 +157,7 @@
     float: none;
     display: inline-block;
   }
+
 }
 
 /** Width between 600px to 0
@@ -295,6 +299,7 @@
     float: none;
     display: inline-block;
   }
+
 }
 
 /** Width between 320px to 0
