@@ -322,20 +322,28 @@
           <script type="text/javascript">
             var submitted = false;
           </script>
-          <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSc7BxwLF3B-WGEiAVUoWwSeqBg3X85bB3FfAxWo2TIy0M8ubQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+          <form id="rsvp-form" action="https://docs.google.com/forms/d/e/1FAIpQLSc7BxwLF3B-WGEiAVUoWwSeqBg3X85bB3FfAxWo2TIy0M8ubQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thanks.html';}"></iframe>
-            <label class="control-label" for="names">Name of attendee(s)</label>
-            <input name="entry.1212851581" type="text" required />
-            <label class="control-label" for="response">Will you be there?</label>
-            <label class="choice">
-              <input type="radio" name="entry.1118270870" value="yes">Yes! Wouldn't miss it</input>
-            </label>
-            <label class="choice">
-              <input type="radio" name="entry.1118270870" value="no">Sorry, can't make it</input>
-            </label>
-            <label>Optional - Number of vegetarian options requested</label>
-            <input name="entry.926302019" type="text" />
-            <input type="submit" value="Submit" />
+            <div class="form-group">
+              <label class="control-label" for="names">Name of attendee(s)</label>
+              <input class="form-control" name="entry.1212851581" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="">Can you make it?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="rsvp-yes" name="entry.1118270870" value="yes" >
+                <label for="rsvp-yes" class="form-check-label"> Yes! Wouldn't miss it </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="rsvp-no" name="entry.1118270870" value="no">
+                <label for="rsvp-no" class="form-check-label"> Sorry, can't make it </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Number of vegetarian options requested (optional)</label>
+              <input class="form-control" me="entry.926302019" type="text" />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
           </form>
         </div>
       </div>
