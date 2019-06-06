@@ -136,12 +136,6 @@ p {
 }
 
 
-
-.rsvp-div paddsection {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .paddsections {
   padding-top: 90px;
   padding-bottom: 90px !important;
@@ -460,6 +454,10 @@ nav ul li a {
   width: 100%;
 }
 
+#RSVP {
+  padding-top: 60px;
+}
+
 .RSVP-details {
   list-style: none;
   margin: 0;
@@ -487,8 +485,13 @@ nav ul li a {
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 
+#adults {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #footer {
-  background: #f7f7f7;
+
   padding-top: 50px;
   padding-bottom: 50px;
 }
