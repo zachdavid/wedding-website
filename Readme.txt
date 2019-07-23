@@ -1,6 +1,7 @@
-Thanks for downloading this theme!
+Zach and Amanda Wedding Website!
 
-Theme Name: Folio
-Theme URL: https://bootstrapmade.com/folio-bootstrap-gallery-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+To run locally
+```
+$ npm install -g browser-sync
+$ browser-sync
+```
