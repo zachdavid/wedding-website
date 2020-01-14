@@ -480,6 +480,10 @@ nav ul li a {
   padding: 0;
 }
 
+.map {
+  padding-top: 25px;
+}
+
 .RSVP-details li {
   padding-bottom: 10px;
 }
@@ -518,7 +522,7 @@ nav ul li a {
 }
 
 #footer {
-  font-family: ""
+  font-family: "Tangerine"
   font-size: 1.5em;
   padding-top: 50px;
   padding-bottom: 50px;
