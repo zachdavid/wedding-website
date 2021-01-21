@@ -4,10 +4,10 @@
 #     </a>
 #   </div>
 
-(1..115).each do |i|
+(1..58).each do |i|
   puts '<div class="col-lg-4 col-md-6 gallery-thumbnail">'
-  puts "  <a class=\"popup-img\" href=\"images/wedding/#{i}.jpg\">\""
-  puts "    <img src=\"images/wedding/#{i}.jpg\" alt=\"img\">"
+  puts "  <a class=\"popup-img\" href=\"images/wedding/landscape/#{i}social.jpg\">\""
+  puts "    <img src=\"images/wedding/landscape/#{i}social.jpg\" alt=\"img\">"
   puts '  </a>'
   puts '</div>'
 end
